@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="TopBackgroundColor">#00acff</color>
+    <color name="loginBtColor">#2897cc</color>
+    <color name="loginTextColor">#ffffff</color>
+    <color name="registerBtColor">#2897cc</color>
+    <color name="registerTextColor">#ffffff</color>
+    <color name="appNameColor">#2a2c2e</color>
+    <color name="btn_send">#00acff</color>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_contact"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f0f0f0"
+    tools:context="com.example.lichang.casualchat.AddContactActivity">
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/TopBackgroundColor"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_contact"
+            android:src="@drawable/u8"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="添加好友"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_margin="20dp"
+        android:background="#fff"
+        android:hint="请输入对方的用户ID"
+        android:paddingLeft="10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:id="@+id/btn_add"
+        android:layout_margin="20dp"
+        android:background="@drawable/shape"
+        android:text="发出申请"
+        android:textColor="#fff"
+        android:textSize="15dp"/>
+</LinearLayout>

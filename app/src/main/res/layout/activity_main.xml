@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lichang.casualchat.MainActivity">
+
+    <com.hjm.bottomtabbar.BottomTabBar
+        xmlns:hjm="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/bottomtab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        hjm:tab_divider_height="5dp"
+        hjm:tab_font_size="6sp"
+        hjm:tab_img_font_padding="0dp"
+        hjm:tab_img_height="30dp"
+        hjm:tab_img_width="30dp"
+        hjm:tab_isshow_divider="true"
+        hjm:tab_padding_bottom="5dp"
+        hjm:tab_padding_top="8dp"
+        hjm:tab_selected_color="#000000"
+        hjm:tab_unselected_color="@color/colorPrimary" />
+
+<!--
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:id="@+id/fragment_list"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:background="#fff"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/news_ll"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/new_img"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/contact_ll"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/contact_img"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/setting_ll"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/setting_img"/>
+        </LinearLayout>
+    </LinearLayout>
+-->
+</LinearLayout>
+
+<!--
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="40dp"
+        android:background="#000000"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="主页"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_conversation"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_margin="20dp"
+        android:background="#000"
+        android:padding="10dp"
+        android:text="会话列表"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_contact"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#000"
+        android:padding="10dp"
+        android:text="通讯录"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_newfriend"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#000"
+        android:padding="10dp"
+        android:text="好友申请"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#000"
+        android:padding="10dp"
+        android:text="退出"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+</LinearLayout>
+-->
